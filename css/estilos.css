@@ -1,0 +1,131 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    margin: 0 auto;
+ 
+}
+.container{
+  margin: 0 auto;
+    width: 1300px;
+    height: 700px;
+   background-color: aqua;
+
+}
+
+
+.header{
+width: 900px;
+height: 80px;
+background-color: beige;
+}
+.content{
+
+    width: 900px;
+    height: 620px;
+    background-color: brown;
+}
+.aside{
+ position: relative;
+
+width: 400px;
+height: 700px;
+
+
+float: right;
+}
+.cajainterior{
+   
+    margin: auto;
+    background-color: white;
+    width: 350px ;
+    height: 600px;
+}
+.cajaroja{
+background-color: red;
+width: 350px;
+height: 130px;
+
+}
+.contenidoaside{
+background-color: yellow;
+width: 350px;
+height: 470px;
+
+}
+.cajainteriorcontent{
+position: absolute;
+ background-color: coral;
+ margin-left: 15px;
+margin-top: 15px;
+
+width: 875px;
+height: 250px;
+
+}
+
+.botones{
+    position: fixed;
+width: 500px;
+height: 120px;
+background-color: aqua;
+margin-top: 275px ;
+margin-left: 200px
+}
+.cajatexto{
+margin-left:150px ;
+width: 650px;
+height: 35px;
+border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+border: 0px solid #cc00ff;
+}
+.cajarojatext{
+text-align: center;
+font-size: 85px;
+color: white;
+
+
+
+}
+.primercontentaside{
+
+    background-color: chartreuse;
+    width: 350px;
+    height: 200px;
+}
+.arriba{
+width: 350px;
+height: 100px;
+background-color: blue;
+
+
+}
+.abajo{
+    width: 350px;
+    height: 100px;
+    background-color: blueviolet;  
+}
+
+.documento{
+    float: left;
+    margin-left: 45px ;
+    margin-top: 30px;
+
+
+}
+.tipopago{
+  
+float: right;
+margin-right: 45px;
+margin-top: 30px;
+}
+.optiones{
+float: left;
+margin-top: 65px;
+   
+}
