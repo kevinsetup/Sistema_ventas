@@ -3,67 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Control 2</title>
+
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Sistemas_Ventas</title>
 </head>
 <body>
-      <div class="container">
-        <section class="aside">
-            <div class="cajainterior">
-       <div class="cajaroja">
-        <h1 class="cajarojatext">S/. 21.60</h1>
-       </div>
-       <div class="contenidoaside">
-        <div class="primercontentaside">
-         <div class="arriba">
-            <select name="favorites" class="optiones"> 
-                <option value="American">American flamingo</option> 
-            </select>
-                <p class="documento">Documento</p>
-               
-
-
-    
-                <p class="tipopago">Tipo De Pago</p>
-         </div>
-          <div class="abajo">
-             
-         </div>
-
-
-        </div>
-
-
-       </div>
-    </div>
-        </section>
-
-
-       <section class="header">
-      <h1>Producto</h1>
-        <input type="text" class="cajatexto" placeholder="Buscar por código de barra o nombre del producto">
-
-        
-
-       </section>
-    
-       <section class="content">
-<div class="cajainteriorcontent">
-<div class="textossuperior">
-
-</div>
-
-
-
-</div>
-<div class="botones">
-
-
-</div> 
-       </section>
-
-
-      </div>
-
+    <main>
+        <article>
+            <header>
+                <section id="uno"><label for="a">Producto</label></section>
+                <section id="dos"><input type="text" class="caja" placeholder="Producto"></section>
+            </header>
+            <aside id="caja2">
+                <table class="table">
+                    <thead>
+                      <tr id="titulo">
+                          <th class="t1">Item</th>
+                          <th class="t1">Cant.</th>
+                          <th class="t2">Producto</th>
+                          <th scope="col">Marca</th>
+                          <th scope="col">Precio</th>
+                          <th scope="col">Importe</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td><input type="text" class="cajatexto"></td>
+                        <td>Leche evaporada entera Pack x 6 Lata 410 Gr</td>
+                        <td>Gloria</td>
+                        <td>15.30</td>
+                        <td>15.30</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">2</th>
+                          <td><input type="text" class="cajatexto" size="2"></td>
+                          <td>Leche chocolatada Tetra Pack 1 Lt</td>
+                          <td>Laive</td>
+                          <td>3.10</td>
+                          <td>3.10</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">3</th>
+                          <td><input type="text" class="cajatexto" size="2"></td>
+                          <td>Leche Fresca 0% lactosa Tetra Pack 2 Lt</td>
+                          <td>Laive</td>
+                          <td>3.20</td>
+                          <td>3.20</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </aside>
+            <aside id="caja4">
+                    <button style="background-color: cornflowerblue"><i class="fas fa-cart-plus" style="padding-right: 10px;"></i>Guardar Compra</button>
+                    <button style="background-color: rgb(190, 46, 20)"><i class="fas fa-trash-alt" style="padding-right: 10px;"></i>Vaciar Carrito</button>
+            </aside>
+        </article>
+        <aside id="caja3">
+                <section id="precio">
+                    <h1>S/. 21.60</h1>
+                </section>
+                <section style="margin-top:20px;"></section>
+                <section class="c1">
+                    <label for="a" class="jonas">Documento</label>
+                    <select name="c" class="v">
+                        <option value="a1">
+                            Factura
+                        </option>
+                        <option value="s">
+                            Boleta
+                        </option>
+                    </select>
+                </section>
+                <section class="c1">
+                        <label for="a" class="jonas">Tipo de Pago</label>
+                        <select name="c" class="v">
+                            <option value="a1">
+                                Contado
+                            </option>
+                            <option value="s">
+                                Cuotas
+                            </option>
+                        </select>
+                </section>
+                <section style="clear: both;"></section>
+                <section class="c1">
+                    <label for="a" class="jonas">Serie</label>
+                    <select name="c" class="v">
+                        <option value="a1">
+                            001
+                        </option>
+                        <option value="s">
+                            002
+                        </option>
+                    </select>
+                </section>
+                <section class="c1">
+                    <label for="a" class="jonas">Nº de venta</label>
+                    <select name="c" class="v">
+                        <option value="a1">
+                            0000001
+                        </option>
+                        <option value="s">
+                            000002
+                        </option>
+                    </select>
+                </section>
+                <section style="clear: both;"></section>
+                <label for="a" class="jonas2">
+                    Fecha de Compra
+                </label>
+                <input type="date" class="cajita">
+                <label for="a" class="jonas2">
+                    Proveedor
+                </label>
+                <input type="text" class="cajita" placeholder="Ruc o Razón Social">
+                <section class="a1">
+                    <p>Sub Total</p>
+                </section>
+                <section class="a2">
+                    <p>S/. 18.31</p>
+                </section>
+                <section style="clear:both;"></section>
+                <section class="a1">
+                    <p>I.G.V.(18%)</p>
+                </section>
+                <section class="a2">
+                    <p>S/. 3.29</p>
+                </section>
+                <section style="clear:both;"></section>
+                <section class="a1">
+                    <p>Total</p>
+                </section>
+                <section class="a2">
+                    <p>S/. 21.60</p>
+                </section>
+        </aside>
+    </main>
+ 
 </body>
 </html>
